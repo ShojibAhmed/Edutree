@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.footer{
+	height:100cm;
+	width:100%;
+	background:linear-gradient(to right,#d38d8d,#3c7fb8);
+	color:#fff;
+	padding:60px 30px;
+}
+.row{
+	width:85%;
+	margin:auto;
+	align-items:flex-start;
+	justify-content:space-between;
+}
+.footer-col h4{
+	font-size:30px;
+}
+.footer-col li{
+	font-size:22px;
+}
+.social-links i{
+	width:40px;
+	height:40px;
+	border-radius:50%;
+	line-height:40px;
+	font-size:20px;
+	color:#000;
+	background:#fff;
+	cursor:pointer;
+	margin-right:15px;
+	text-align:center;
+}
+li{
+	list-style:none;
+}
+.row{
+	display:flex;
+}
+.sign-up{
+	border-bottom:1px solid black;
+	margin-bottom:50px;
+	align-items:center;
+	justify-content:space-between;
+	display:flex;
+}
+.sign-up far{
+	font-size:20px;
+	padding-right:10px;
+}
+.sign-up input{
+	width:80%;
+	background:transparent;
+	color:#ccc;
+	border:0;
+	outline:none;
+}
+.sign-up button{
+	background:transparent;
+	border:0;
+	outline:none;
+	cursor:pointer;
+	font-size:16px;
+	color:#ccc;
+}
+@media screen and (min-width
+:400vw) and
+ ( max-width:1170vw).footer{
+	 backgroun-color
+	 :purple;
+	 
+ }
